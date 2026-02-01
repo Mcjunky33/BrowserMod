@@ -20,7 +20,7 @@ All keys can be remapped in the Minecraft options. The defaults are:
 * 
 
 ## Installation
-1. Install the requied MCEF (Minecraft Chromium Embedded Framework)
+1. Install the requied [MCEF [Keksuccino's Fork]](https://modrinth.com/mod/mcef-keksuccino)
 2. Place the browsermod.jar in your mods folder.
 
 ---
@@ -47,5 +47,5 @@ Alle Tasten können in den Minecraft-Optionen geändert werden. Standardbelegung
 * 
 
 ## Installation
-1. Installiere den benötigten MCEF (Minecraft Chromium Embedded Framework) Fork.
+1. Installiere den benötigten [MCEF [Keksuccino's Fork]](https://modrinth.com/mod/mcef-keksuccino).
 2. Lege die browsermod.jar in deinen mods-Ordner.

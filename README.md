@@ -20,7 +20,7 @@ All keys can be remapped in the Minecraft options. The defaults are:
 * 
 
 ## Installation
-1. Install the requid MCEF (Minecraft Chromium Embedded Framework)
+1. Install the requied MCEF (Minecraft Chromium Embedded Framework)
 2. Place the browsermod.jar in your mods folder.
 
 ---

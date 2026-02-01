@@ -1,0 +1,18 @@
+{
+	"required": true,
+	"package": "de.mcjunky33.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+      "KeyMixin",
+      "MixinScreen",
+      "ChatLinkMixin",
+      "TitleAndPauseScreen"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

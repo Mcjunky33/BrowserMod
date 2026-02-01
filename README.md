@@ -27,6 +27,7 @@ All keys can be remapped in the Minecraft options. The defaults are:
 
 **Clickable Links in chat:**
 ![linkinchat](https://cdn.modrinth.com/data/cached_images/c05cf5492dcb090355499f89e01963302e06787e_0.webp)
+![linkinchat](https://cdn.modrinth.com/data/cached_images/4acd6a6a18608a09aca7537d9267b0ed4f25f4b9.gif)
 
 ## Technical Details
 * Working on Windows (X64/X86) 

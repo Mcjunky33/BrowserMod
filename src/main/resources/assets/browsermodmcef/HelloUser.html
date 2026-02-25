@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to BrowserMod</title>
+    <style>
+        :root {
+            --primary: #ffaa00;
+            --secondary: #3c8527;
+            --bg: #121212;
+            --card: rgba(35, 35, 35, 0.9);
+            --text: #e0e0e0;
+            --btn-gray: #444;
+        }
+
+        body {
+            background-color: var(--bg);
+            background-image: radial-gradient(circle at center, #252525 0%, #121212 100%);
+            color: var(--text);
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            overflow-y: auto;
+        }
+
+        .container {
+            text-align: center;
+            background: var(--card);
+            padding: 40px;
+            border: 1px solid #444;
+            border-radius: 16px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+            max-width: 700px;
+            width: 90%;
+            margin: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 { color: var(--primary); text-shadow: 2px 2px 4px rgba(0,0,0,0.5); font-size: 2.5em; margin-bottom: 10px; }
+        h2 { color: var(--primary); font-size: 1.2em; border-bottom: 1px solid #444; padding-bottom: 8px; margin-top: 30px; }
+
+        p { color: #bbb; line-height: 1.6; font-size: 1.1em; }
+
+        .keybind-list {
+            text-align: left;
+            margin: 20px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border-left: 5px solid var(--primary);
+        }
+
+        .key-row { display: flex; justify-content: space-between; margin-bottom: 10px; align-items: center; }
+        .key { color: #ffff55; font-weight: bold; background: #333; padding: 4px 10px; border-radius: 6px; box-shadow: 0 3px 0 #000; font-family: monospace; }
+
+        /* Grid for Credit-Buttons */
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 20px; }
+
+        /* Style for Link-Buttons */
+        .link-btn {
+            background: var(--btn-gray);
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 10px;
+            cursor: pointer;
+            text-align: center;
+            border-bottom: 4px solid #222;
+            transition: all 0.1s;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            font-family: inherit;
+        }
+
+        .link-btn:hover { background: #555; transform: translateY(-2px); }
+        .link-btn:active { transform: translateY(2px); border-bottom: 0; }
+        .link-btn strong { color: var(--primary); font-size: 1em; }
+        .link-btn span { font-size: 0.8em; opacity: 0.8; }
+
+        .footer-actions { margin-top: 40px; display: flex; flex-direction: column; gap: 10px; align-items: center; }
+
+        .btn-main {
+            background-color: var(--secondary);
+            color: white;
+            border: none;
+            padding: 18px 50px;
+            font-size: 1.4em;
+            cursor: pointer;
+            border-bottom: 5px solid #2a5d1b;
+            font-weight: bold;
+            border-radius: 12px;
+            transition: all 0.1s;
+            width: 100%;
+            max-width: 350px;
+        }
+
+        .btn-main:hover { background-color: #47a02e; }
+        .btn-main:active { transform: translateY(3px); border-bottom: 0; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>BrowserMod</h1>
+    <p>Thanks for downloading! Everything is set up and ready to go.</p>
+
+    <h2>Mod Functions & Controls</h2>
+    <div class="keybind-list">
+        <div class="key-row"><span>Open Browser</span> <span class="key">KEY_BROWSER</span></div>
+        <div class="key-row"><span>Toggle PiP Mode</span> <span class="key">KEY_PIP</span></div>
+        <div class="key-row"><span>Scroll Up (PiP)</span> <span class="key">KEY_SCROLL_UP</span></div>
+        <div class="key-row"><span>Scroll Down (PiP)</span> <span class="key">KEY_SCROLL_DOWN</span></div>
+        <div class="key-row"><span>Toggle Browser Fullscreen</span> <span class="key">F12</span></div>
+    </div>
+
+    <h2>Credits & Resources</h2>
+    <div class="grid">
+        <button class="link-btn" onclick="window.location.href='https://github.com/Mcjunky33/BrowserMod'">
+            <strong>BrowserMod Source</strong>
+            <span>GitHub Repository</span>
+        </button>
+        <button class="link-btn" onclick="window.location.href='https://github.com/Keksuccino/mcef/tree/1.21.11'">
+            <strong>MCEF Keksuccino Fork</strong>
+            <span>GitHub Repository</span>
+        </button>
+        <button class="link-btn" onclick="window.location.href='https://streamlabs.com/mcjunky33/tip'">
+            <strong>Support Mcjunky33</strong>
+            <span>Donation Link</span>
+        </button>
+        <button class="link-btn" onclick="window.location.href='https://modrinth.com/user/Mcjunky33'">
+            <strong>More Mcjunky33 Projects</strong>
+            <span>Modrinth Profile</span>
+        </button>
+    </div>
+
+    <div class="footer-actions">
+        <button class="btn-main" onclick="window.location.href='https://www.google.com'">Get Started</button>
+        <p style="font-size: 0.8em; opacity: 0.6;">Mcjunky33 &copy; 2026 - All Rights Reserved</p>
+    </div>
+</div>
+
+</body>
+</html>

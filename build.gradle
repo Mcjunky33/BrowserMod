@@ -33,7 +33,8 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
     modImplementation "com.terraformersmc:modmenu:17.0.0-beta.2"
     modImplementation "eu.pb4:placeholder-api:2.8.1+1.21.10"
-    modImplementation "de.keksuccino:mcef-fabric:2.1.9-1.21.11"
+    modImplementation "de.keksuccino:mcef-fabric:2.2.0-1.21.11"
+    include("de.keksuccino:mcef-fabric:2.2.0-1.21.11")
 
 	
 }

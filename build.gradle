@@ -29,7 +29,7 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
-    implementation "de.keksuccino:mcef-fabric:2.2.0-26.1.1"
+    implementation "de.keksuccino:mcef-fabric:2.2.1-26.2"
     implementation("com.terraformersmc:modmenu:${project.modmenu_version}")
 }
 

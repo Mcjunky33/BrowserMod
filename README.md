@@ -24,7 +24,7 @@ All keys can be remapped in the Minecraft options. The defaults are:
 * Picture-in-Picture (PiP): Keep a small browser window open while playing. Resize and move it anywhere on your screen.
 * Chat Link Interceptor: Clicking URLs in chat automatically opens them in a mod tab instead of an external browser.
 * Persistence: Your tabs and PiP configuration (position/size) are saved automatically in .json config files.
-* Stream Browser ingame on blocks only singleplayer no multiplayer screen.
+* Stream Browser ingame on blocks only singleplayer no multiplayer screen. (only version 0.3 higher versions not supported)
 
 **Ingame Stream:**
 ![Ingame stream](https://cdn.modrinth.com/data/cached_images/4815deecea2be7c0b869702e3d56d6f56c3f4285.jpeg)
@@ -62,7 +62,7 @@ Alle Tasten können in den Minecraft-Optionen geändert werden. Standardbelegung
 * Picture-in-Picture (PiP): Behalte ein kleines Browser-Fenster während des Spielens offen. Das PiP-Fenster lässt sich frei skalieren und verschieben.
 * Chat-Link-Abfangjäger: Klickst du auf eine URL im Chat, öffnet sich diese automatisch in einem neuen Tab der Mod, statt im externen Browser.
 * Speicherung: Deine Tabs sowie die PiP-Konfiguration (Position/Größe) werden automatisch in .json-Dateien gespeichert.
-* Stream Browser im spiel an blöcke only singleplayer no multiplayer screen.
+* Stream Browser im spiel an blöcke only singleplayer no multiplayer screen. (only version 0.3 higher versions not supported)
 
 
 ## Technische Details
